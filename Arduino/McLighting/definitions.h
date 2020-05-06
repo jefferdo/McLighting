@@ -3,13 +3,13 @@
 //#define USE_WS2812FX_UART2     // LED_PIN is ignored & set to TX/GPIO1  Uses WS2812FX, see: https://github.com/kitesurfer1404/WS2812FX
 
 // Neopixel
-#define LED_PIN 14       // LED_PIN (14 / D5) where neopixel / WS2811 strip is attached
-#define NUMLEDS 24       // Number of leds in the strip
-//#define LED_TYPE_WS2811  // Uncomment if LED type uses 400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
+#define LED_PIN 4       // LED_PIN (14 / D5) where neopixel / WS2811 strip is attached
+#define NUMLEDS 100       // Number of leds in the strip
+#define LED_TYPE_WS2811  // Uncomment if LED type uses 400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
 #define BUILTIN_LED 2    // ESP-12F has the built in LED on GPIO2, see https://github.com/esp8266/Arduino/issues/2192
-#define BUTTON 4         // Input pin (4 / D2) for switching the LED strip on / off, connect this PIN to ground to trigger button.
+#define BUTTON 14         // Input pin (4 / D2) for switching the LED strip on / off, connect this PIN to ground to trigger button.
 
-#define HOSTNAME "McLighting01"   // Friendly hostname
+#define HOSTNAME "Jeewakas_RGB"   // Friendly hostname
 
 #define HTTP_OTA             // If defined, enable ESP8266HTTPUpdateServer OTA code.
 //#define ENABLE_OTA         // If defined, enable Arduino OTA code.
